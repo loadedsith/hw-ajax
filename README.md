@@ -3,14 +3,14 @@ Random Quoter
 
 Fork this repo and complete the following:
 
-***Enable the Button***
+## Enable the Button
 
 Clicking the button should:
 
 1. Pick a random quote to load.
 2. Make an AJAX request to the randomly selected quote HTML file.
 
-***Replace the Quote***
+## Replace the Quote
 
 After the AJAX request returns successfully:
 
@@ -19,7 +19,7 @@ After the AJAX request returns successfully:
 3. Add the new quote to `#quote-wrapper`.
 4. Using the reverse effect from step #1 (slideDown/fadeIn), display the new quote.
 
-***Finish The Responsiveness***
+## Finish The Responsiveness
 
 Add media queries for 768px and 1024px. Make sure a noticeable change happens! Something like:
 
@@ -29,7 +29,7 @@ Add media queries for 768px and 1024px. Make sure a noticeable change happens! S
 
 Use transitions if you're feeling snazzy.
 
-***More Fun Times***
+## More Fun Times
 
 If you finish the above and are hungry for more, try the following:
 
