@@ -8,6 +8,9 @@ body {
 	padding: 5%;
 	background: #fff;
 	box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+	-webkit-transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
+
 }
 
 .quote {
@@ -58,8 +61,29 @@ figcaption {
 
 @media only screen and (min-width: 768px) {
 	/* Styles for screens at least 768px wide. Will override 480px styles above. */
+	body {
+		background: #a76cf1;
+	}
+	.quote {
+		font-size: 3.25em;
+	}
+
+	#new-quote {
+		font-size: 1.75em;
+	}
+	
 }
 
 @media only screen and (min-width: 1024px) {
 	/* Styles for screens at least 1024px wide. Will override 768px styles above. */
+	body {
+		background: #f18199;
+	}
+	.quote {
+		font-size: 4em;
+	}
+
+	#new-quote {
+		font-size: 2em;
+	}
 }
